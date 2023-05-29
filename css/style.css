@@ -1,0 +1,304 @@
+
+html {
+  font-family: 'Open sans', sans-serif;
+  color: black;
+}
+ 
+a {
+  transition: .5s;
+}
+
+#sidebar {
+    position: fixed;
+    height: 100%;
+    width: 300px;
+    background-color: green;
+    padding-top: 40px;
+}
+
+#sidebar h1{
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+ 
+#sidebar a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+
+}
+
+#sidebar a:hover{
+    color: black;
+}
+
+#sidebar li {
+    padding: 20px;
+}
+
+.sidebar-container {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+.logo-xbox {
+    width: 60px;
+    height: 60px;
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content {
+    position: absolute;
+    left: 300px;
+    width: calc(100% - 300px);
+}
+
+.content h1, .content h2 {
+    color: gray;
+    margin-bottom: 30px;
+}
+
+.content h1{
+    font-size: 48px;
+}
+
+.content h2 {
+    font-size: 35px;
+}
+
+section{
+    padding-left: 50px;
+}
+
+#sessao-bemvindo {
+    padding-left: 0;
+}
+
+.sessao-bemvindo-content {
+    padding-left: 50px;
+}
+
+#sessao-bemvindo .banner {
+    height: 500px;
+    background-image: url(../img/banner2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#sessao-bemvindo h1 {
+    margin-top: 70px;
+}
+
+#sessao-bemvindo::after, #sessao-sobre::after  {
+    content: "";
+    display: block;
+    clear: both;
+    margin-bottom: 100px;
+}
+
+.sessao-minibanner {
+    width: 300px;
+    height: 400px;
+    background-image: url(../img/banner3.jpg);
+    background-position: center;
+    background-size: cover;
+    float: left;
+}
+
+.sessao-descri {
+    position: absolute;
+    left: 370px;
+    padding-right: 30px;
+}
+
+.sessao-descri p {
+    line-height: 2;
+    font-size: 16px;
+    margin-bottom: 30px;
+    margin-left: 25px;
+}
+
+.sessao-bemvindo-btn, form iput [type=submit]{
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    padding: 20px 40px;
+    transition: .5s;
+    display: block;
+    width: 100px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    margin-left: 25px;
+}
+
+.sessao-bemvindo-btn:hover, form iput [type=submit]:hover{
+    background-color: rgba(117, 184, 17, 0.938);
+}
+
+#sessao-sobre .sessao-minibanner {
+    float: right;
+    margin-right: 50px;
+    background-image: url(../img/banner4.jpg);
+    background-repeat: cover;
+}
+
+#sessao-sobre .sessao-descri {
+    position: absolute;
+    left: 25px;
+    width: calc(100% - 400px);
+}
+
+.banner-galeria {
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    height: 200px;
+    cursor: pointer;
+}
+
+#sessao-games1, #sessao-games2, #sessao-games3 {
+    padding-right: 50px;
+    margin-bottom: 50px;
+  
+}
+
+.games1-imgs {
+    width: 18.8%;
+    margin-left: .5%;
+    margin-right: .5%;
+    transition: .15s;
+    cli
+}
+.games1-imgs:hover {
+    padding-top: 5px;
+
+}
+
+
+#img1 {
+    background-image: url(../img/galeria1.jpg);
+    margin-left: 0;
+}
+#img2 {
+    background-image: url(../img/galeria2.jpg);
+    
+    
+}
+#img3 {
+    background-image: url(../img/galeria3.jpg);
+    
+    
+}
+#img4 {
+    background-image: url(../img/galeria4.jpg);
+    
+}
+#img5 {
+    background-image: url(../img/galeria5.jpg);
+    margin-right: 0;
+}  
+
+.games2-imgs {
+    width: 32.3%;
+    margin-left: .5%;
+    margin-right: .5%;
+}
+.games2-imgs:hover {
+    padding-top: 5px;
+
+}
+
+#img6 {
+    background-image: url(../img/galeria6.jpg);
+    
+    margin-left: 0;
+}
+#img7 {
+    background-image: url(../img/galeria7.jpg);
+    
+    
+}
+#img8 {
+    background-image: url(../img/galeria8.jpg);
+    margin-right: 0;
+}
+
+
+.games3-imgs {
+    width: 32.3%;
+    margin-left: .5%;
+    margin-right: .5%;
+    
+}
+.games3-imgs:hover {
+    padding-top: 5px;
+
+}
+
+#img9 {
+    background-image: url(../img/galeria9.jpg);
+    
+    margin-left: 0;
+}
+#img10 {
+    background-image: url(../img/galeria10.jpg);
+    b
+    
+}
+#img11 {
+    background-image: url(../img/galeria11.jpg);
+    margin-right: 0;
+}
+
+
+#form-contato{
+    height: 20px;
+    width: 500px;
+}
+
+
+#form-contato input[type=email]{
+    display: block;
+    border: 1px solid green;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    font-size: 16px;
+    font-family: 'Open sans', sans-serif;
+}
+
+
+#form-contato input[type=email]:focus{
+    border-color: greenyellow;
+}
+
+#form-contato ::placeholder{
+    color: black;
+}
+
+#form-contato input[type=submit]{
+    margin-left: 0;
+    font-size: 16px;
+    width: 299px;
+    color: white;
+    background-color: green;
+}
+
+footer{
+    height: 100px;
+    padding-top: 150px;
+    color: black;
+}
+
+footer p{
+    text-align: center;
+    font-weight: bold;
+}
